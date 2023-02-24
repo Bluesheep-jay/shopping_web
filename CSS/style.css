@@ -1,0 +1,33 @@
+html{overflow-x: hidden;}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Georgia;
+    font-size:16px;
+}
+/* .container-top{position:fixed; top:0;} */
+.container{
+    display:flex; 
+    justify-content: space-between;
+    height:80px;
+    justify-content: center;
+    /* align-items: center; */
+}
+a{ text-decoration: none;}
+li{ list-style-type: none;}
+.logo{
+    flex-grow:1;
+}
+.menu{
+    flex-grow: 3;
+    display:flex;
+    padding-top:10px;
+}
+.menu > li{
+    padding:0 10px;
+}
+.others{
+    flex-grow:1;
+    padding:10px;
+}
